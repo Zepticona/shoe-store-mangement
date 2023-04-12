@@ -1,0 +1,24 @@
+{
+  "name": "shoe-store-management",
+  "version": "1.0.0",
+  "description": "An experimental project to manage the daily operations of a shoe store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "shoe",
+    "store"
+  ],
+  "author": "zepticona",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
